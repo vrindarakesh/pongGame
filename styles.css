@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    margin: 0;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+canvas {
+    border: 1px solid #fff;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+.controls {
+    display: flex;
+    gap: 0.5rem;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0 2rem; /* Add padding to left and right */
+}
+
+.player-score {
+    margin: 1rem;
+}
+
+.computer-score{
+    margin: 1rem;
+}
